@@ -65,7 +65,7 @@ disk.Delete("helloworld.txt");
 通过`Write()`可以写入一个文件，如果文件已经存在那么覆盖数据。
 
 ``` csharp
-disk.Wrire("helloworld.txt" , Encoding.Default.GetBytes("hello world"));
+disk.Write("helloworld.txt" , Encoding.Default.GetBytes("hello world"));
 ```
 
 #### **Move**
